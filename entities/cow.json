@@ -6,7 +6,16 @@
       "spawn_category": "creature",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false
+      "is_experimental": false,
+      "animations": {
+        "system": "controller.animation.system",
+        "angry": "animation.angry"
+      },
+      "scripts": {
+        "animate": [
+          "system"
+        ]
+      }
     },
     "component_groups": {
       "minecraft:cow_baby": {
@@ -367,4 +376,4 @@
       }
     }
   }
-}
+}}
