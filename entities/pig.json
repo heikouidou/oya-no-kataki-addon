@@ -5,7 +5,16 @@
       "identifier": "minecraft:pig",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false
+      "is_experimental": false,
+   "animations": {
+        "system": "controller.animation.system",
+        "angry": "animation.angry"
+      },
+      "scripts": {
+        "animate": [
+          "system"
+        ]
+      }
     },
     "component_groups": {
       "minecraft:pig_baby": {
