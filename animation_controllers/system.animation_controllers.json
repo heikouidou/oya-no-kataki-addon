@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.system": {
+      "initial_state": "default",
+      "states": {
+        "angry": {
+          "animations": [
+            "angry"
+          ],
+          "transitions": [
+            {
+              "default": "query.is_baby && !query.has_target"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "angry":  "query.is_baby && query.has_target"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
