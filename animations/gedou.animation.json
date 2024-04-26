@@ -1,13 +1,18 @@
 {
   "format_version": "1.8.0",
   "animations": {
-    "animation.angry": {
+    "animation.gedou": {
       "animation_length": 0.05,
-      "loop": true,
+      "loop": false,
       "timeline": {
         "0.0": [
-          "/particle minecraft:blue_flame_particle ~ ~1 ~",
+          "/say ひそひそ……ひそひそ……",
           "@s minecraft:entity_event"
+        ]
+      }
+    }
+  }
+}t"
         ]
       }
     }
