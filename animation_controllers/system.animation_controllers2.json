@@ -1,27 +1,22 @@
 {
   "format_version": "1.10.0",
   "animation_controllers": {
-    "controller.animation.system": {
+    "controller.animation.system2": {
       "initial_state": "default",
       "states": {
-        "angry": {
+        "gedou": {
           "animations": [
-            "angry"
-          ],
-          "transitions": [
-            {
-              "default": "query.is_baby && !query.has_target"
-            }
+            "gedou"
           ]
         },
         "default": {
           "transitions": [
             {
-              "angry": "query.is_baby && query.has_target"
+              "gedou": "query.has_property('oyanokataki:gedou')"
             }
           ]
         }
       }
     }
   }
-}
+}}
