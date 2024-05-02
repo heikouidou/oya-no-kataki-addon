@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.system2": {
+      "initial_state": "default",
+      "states": {
+        "gedou": {
+          "on_entry":[
+            "/scoreboard objectives add timer dummy 外道状態（秒）",
+            "/scoreboard players set @s timer 75",
+            "/scoreboard objectives setdisplay sidebar timer",
+            "@s minecraft:entity_event"
+            ],
+          "animations": [
+            "gedou"
+            ],
+          "transitions": [
+             {"default": "query.scoreboard('timer') == 0"}
+            ]
+          },
+        "default": {
+          "on_entry": [
+            "/scoreboard objectives remove timer",
+            "/event entity @e oyanokataki:remove_gedou",
+            "@s minecraft:entity_event"],
+          "transitions": [
+            {
+              "gedou": "query.property('oyanokataki:gedou') == true"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

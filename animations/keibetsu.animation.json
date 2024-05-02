@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.keibetsu": {
+      "animation_length": 5.0,
+      "loop": true,
+      "timeline": {
+        "0.0": [
+          "/execute as @r[type=villager,has_property={oyanokataki:keibetsu=true}] run say ひそひそ……",
+          "/scoreboard players add @s timer2 1",
+          "@s minecraft:entity_event"
+        ]
+      }
+    }
+  }
+}

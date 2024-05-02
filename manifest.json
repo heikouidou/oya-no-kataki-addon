@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "子mobが親の仇を討ちにきます",
+        "name": "親の仇アドオン",
+        "uuid": "b4f38eb7-6c6d-4a51-8cf8-c1382e85e573",
+        "version": [ 0, 0, 2 ],
+        "min_engine_version": [ 1, 20, 70 ]
+    },
+    "modules": [
+        {
+            "description": "親の仇アドオン",
+            "type": "data",
+            "uuid": "4d22c2ea-3b20-48fb-aea1-47ef09b1dfb1",
+            "version": [0, 0, 1]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.system3": {
+      "initial_state": "default",
+      "states": {
+        "keibetsu": {
+          "on_entry": [
+            "/scoreboard objectives add timer2 dummy 軽蔑状態（秒）",
+            "/scoreboard players set @s timer2 0",
+            "@s minecraft:entity_event"
+          ],
+          "animations": [
+            "keibetsu"
+            ],
+          "on_exit": [
+            "/scoreboard objectives remove timer2",
+            "/event entity @e oyanokataki:remove_keibetsu",
+            "@s minecraft:entity_event"
+            ],
+          "transitions": [
+             {"default": "query.scoreboard('timer2') == 15"}
+            ]
+          },
+        "default": {
+          "transitions": [
+            {
+              "keibetsu": "query.property('oyanokataki:keibetsu') == true"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
