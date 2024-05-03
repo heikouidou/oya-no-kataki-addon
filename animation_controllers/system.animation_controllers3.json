@@ -19,7 +19,7 @@
             "@s minecraft:entity_event"
             ],
           "transitions": [
-             {"default": "query.scoreboard('timer2') == 15"}
+             {"default": "query.scoreboard('timer2') == 750"}
             ]
           },
         "default": {

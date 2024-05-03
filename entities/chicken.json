@@ -76,7 +76,6 @@
         "minecraft:behavior.follow_parent": {
           "priority": 5,
           "speed_multiplier": 1.1
-<<<<<<< HEAD
         },
         "minecraft:damage_sensor": {
           "triggers": {
@@ -98,8 +97,6 @@
               "target": "other"
             }
           }
-=======
->>>>>>> origin/main
         }
       },
       "minecraft:chicken_adult": {

@@ -2058,6 +2058,13 @@
                   "test": "is_family",
                   "subject": "other",
                   "value": "zoglin"
+                },
+                {
+                  "test": "bool_property",
+                  "subject": "other",
+                  "domain": "oyanokataki:gedou",
+                  "operator": "equals",
+                  "value": true
                 }
               ]
             },

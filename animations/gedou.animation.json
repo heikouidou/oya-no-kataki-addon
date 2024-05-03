@@ -2,26 +2,14 @@
   "format_version": "1.8.0",
   "animations": {
     "animation.gedou": {
-<<<<<<< HEAD
       "animation_length": 1.0,
       "loop": true,
       "timeline": {
         "0.0": [
           "/scoreboard players remove @s timer 1",
-=======
-      "animation_length": 0.05,
-      "loop": false,
-      "timeline": {
-        "0.0": [
-          "/say ひそひそ……ひそひそ……",
->>>>>>> origin/main
           "@s minecraft:entity_event"
         ]
       }
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/main

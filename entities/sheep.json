@@ -102,7 +102,6 @@
       "minecraft:behavior.follow_parent": {
           "priority": 6,
           "speed_multiplier": 1.1
-<<<<<<< HEAD
         },
         "minecraft:damage_sensor": {
           "triggers": {
@@ -126,10 +125,6 @@
           }
         }
      },
-=======
-        }
-      },
->>>>>>> origin/main
       "minecraft:sheep_adult": {
         "minecraft:experience_reward": {
           "on_bred": "Math.Random(1,7)",
