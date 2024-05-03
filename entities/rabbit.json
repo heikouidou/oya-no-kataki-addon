@@ -272,7 +272,7 @@
         "priority": 0
       },
       "minecraft:behavior.panic": {
-        "priority": 1,
+        "priority": 99,
         "speed_multiplier": 2.2
       },
       "minecraft:behavior.avoid_mob_type": {
