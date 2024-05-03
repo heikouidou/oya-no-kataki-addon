@@ -93,7 +93,8 @@
           }
         },
         "minecraft:behavior.avoid_mob_type": {
-          "priority": 4,
+          "priority": 98
+          ,
           "entity_types": [
             {
               "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
