@@ -91,6 +91,23 @@
               "target": "other"
             }
           }
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 4,
+          "entity_types": [
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.8
+            },
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "monster"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.5
+            }
+          ]
         }
       },
 
