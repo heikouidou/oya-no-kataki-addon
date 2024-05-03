@@ -2010,6 +2010,13 @@
                 {
                   "test": "in_water",
                   "value": false
+                },
+                {
+                  "test": "bool_property",
+                  "subject": "other",
+                  "domain": "oyanokataki:gedou",
+                  "operator": "equals",
+                  "value": false
                 }
               ]
             },
