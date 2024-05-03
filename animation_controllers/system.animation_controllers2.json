@@ -5,6 +5,7 @@
       "initial_state": "default",
       "states": {
         "gedou": {
+<<<<<<< HEAD
           "on_entry":[
             "/scoreboard objectives add timer dummy 外道状態（秒）",
             "/scoreboard players set @s timer 75",
@@ -26,10 +27,24 @@
           "transitions": [
             {
               "gedou": "query.property('oyanokataki:gedou') == true"
+=======
+          "animations": [
+            "gedou"
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "gedou": "query.has_property('oyanokataki:gedou')"
+>>>>>>> origin/main
             }
           ]
         }
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}}
+>>>>>>> origin/main

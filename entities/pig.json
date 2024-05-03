@@ -70,6 +70,7 @@
         "minecraft:behavior.follow_parent": {
           "priority": 6,
           "speed_multiplier": 1.1
+<<<<<<< HEAD
         },
         "minecraft:damage_sensor": {
         "triggers": {
@@ -93,6 +94,10 @@
         }
       }
     },
+=======
+        }
+      },
+>>>>>>> origin/main
       "minecraft:pig_transform": {
         "minecraft:transformation": {
           "into": "minecraft:pig_zombie",

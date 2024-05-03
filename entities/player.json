@@ -8,6 +8,7 @@
       "is_summonable": false,
       "properties":{
         "oyanokataki:gedou": { 
+<<<<<<< HEAD
           "type": "bool", 
           "default": false 
         }
@@ -21,6 +22,12 @@
           "system"
         ]
       }
+=======
+      "type": "bool", 
+      "default": false 
+      }
+}
+>>>>>>> origin/main
     },
 
     "component_groups": {
@@ -226,4 +233,12 @@
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+>>>>>>> origin/main
