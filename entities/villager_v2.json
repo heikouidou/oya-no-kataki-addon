@@ -2013,8 +2013,8 @@
                 },
                 {
                   "test": "bool_property",
-                  "subject": "other",
-                  "domain": "oyanokataki:gedou",
+                  "subject": "self",
+                  "domain": "oyanokataki:keibetsu",
                   "operator": "equals",
                   "value": false
                 }
