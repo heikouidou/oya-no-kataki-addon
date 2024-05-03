@@ -37,6 +37,29 @@
             "target": "self"
           }
         },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 4,
+          "entity_types": [
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+              "max_dist": 8,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.8
+            },
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.8
+            },
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "monster"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.5
+            }
+          ]
+        },
         "minecraft:behavior.follow_parent": {
           "priority": 6,
           "speed_multiplier": 1.1
@@ -91,24 +114,6 @@
               "target": "other"
             }
           }
-        },
-        "minecraft:behavior.avoid_mob_type": {
-          "priority": 98
-          ,
-          "entity_types": [
-            {
-              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
-              "max_dist": 4,
-              "walk_speed_multiplier": 1.5,
-              "sprint_speed_multiplier": 1.8
-            },
-            {
-              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "monster"},
-              "max_dist": 4,
-              "walk_speed_multiplier": 1.5,
-              "sprint_speed_multiplier": 1.5
-            }
-          ]
         }
       },
 
@@ -126,6 +131,29 @@
         "minecraft:behavior.breed": {
           "priority": 2,
           "speed_multiplier": 1.0
+        },
+        "minecraft:behavior.avoid_mob_type": {
+          "priority": 4,
+          "entity_types": [
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+              "max_dist": 8,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.8
+            },
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.8
+            },
+            {
+              "filters": { "test" :  "is_family", "subject" : "other", "value" :  "monster"},
+              "max_dist": 4,
+              "walk_speed_multiplier": 1.5,
+              "sprint_speed_multiplier": 1.5
+            }
+          ]
         },
         "minecraft:breedable": {
           "breed_items": [
@@ -292,29 +320,6 @@
       "minecraft:behavior.panic": {
         "priority": 99,
         "speed_multiplier": 2.2
-      },
-      "minecraft:behavior.avoid_mob_type": {
-        "priority": 4,
-        "entity_types": [
-          {
-            "filters": { "test" :  "is_family", "subject" : "other", "value" :  "player"},
-            "max_dist": 8,
-            "walk_speed_multiplier": 1.5,
-            "sprint_speed_multiplier": 1.8
-          },
-          {
-            "filters": { "test" :  "is_family", "subject" : "other", "value" :  "wolf"},
-            "max_dist": 4,
-            "walk_speed_multiplier": 1.5,
-            "sprint_speed_multiplier": 1.8
-          },
-          {
-            "filters": { "test" :  "is_family", "subject" : "other", "value" :  "monster"},
-            "max_dist": 4,
-            "walk_speed_multiplier": 1.5,
-            "sprint_speed_multiplier": 1.5
-          }
-        ]
       },
       "minecraft:behavior.breed": {
         "priority": 2,
